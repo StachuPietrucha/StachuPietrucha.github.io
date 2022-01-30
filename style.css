@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	background-color: beige;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+	background-color: white;
+	box-shadow: 0 5px 10px 5px rgba(30, 30, 30, 0.3);
+	padding: 1.5em;
+	text-align: center;
+	width: max(50%, 300px);
+}
+
+.heading--main {
+	font-size: 3rem;
+	letter-spacing: 3px;
+	color: rgba(30, 30, 30, 0.9);
+}
+
+.desc--add {
+	font-size: 0.7rem;
+	line-height: 1.5;
+	color: rgba(30, 30, 30, 0.5);
+}
